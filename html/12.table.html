@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+  <!-- 舊的寫法 -->
+  <!-- emmet: table>tr>th*4^tr*2>td*3-->
+  <table border="1">
+    <tr>
+      <th>我是表頭</th>
+      <th>我是表頭</th>
+      <th>我是表頭</th>
+      <th>我是表頭</th>
+    </tr>
+    <tr>
+      <td>我是儲存格</td>
+      <td>我是儲存格</td>
+      <td>我是儲存格</td>
+      <td>我是儲存格</td>
+    </tr>
+    <tr>
+      <td>我是儲存格</td>
+      <td>我是儲存格</td>
+      <td>我是儲存格</td>
+      <td>我是儲存格</td>
+    </tr>
+  </table>
+  <!-- 新的寫法 -->
+  <!-- emmet: table>thead>tr>th*4^^tbody>tr*2>td*4 -->
+  <!-- 屬性+內文 emmet: table[border=1]>thead>tr>th{我是表頭}*4^^tbody>tr*2>td{我是儲存格}*4 -->
+  <table border="1">
+    <thead>
+      <tr>
+        <th>我是表頭</th>
+        <th>我是表頭</th>
+        <th>我是表頭</th>
+        <th>我是表頭</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>我是儲存格</td>
+        <td>我是儲存格</td>
+        <td>我是儲存格</td>
+        <td>我是儲存格</td>
+      </tr>
+      <tr>
+        <td>我是儲存格</td>
+        <td>我是儲存格</td>
+        <td>我是儲存格</td>
+        <td>我是儲存格</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
