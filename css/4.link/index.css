@@ -1,0 +1,45 @@
+
+a {
+  color: #fa6;
+  text-decoration: none;
+}
+/* link -> visited -> hover -> active 順序很重要 */
+a:link {
+
+}
+
+a:visited {
+  color: #aaa;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  color: #00f;
+}
+
+.OK, .NO {
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 6px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.OK {
+  background-color: #6af;
+}
+
+.OK:hover {
+  background-color: #a00;
+}
+
+.NO {
+  background-color: #aaa;
+}
+
+.OK:visited, .NO:visited {
+  color: #fff;
+}

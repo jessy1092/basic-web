@@ -1,0 +1,35 @@
+
+h2 {
+  color: red;
+}
+
+h1 {
+  color: #fa0;
+}
+
+.special {
+  color: #aaa;
+}
+
+a {
+  color: #fa6;
+}
+
+.OK, .NO {
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 6px;
+  color: #fff;
+}
+
+.OK {
+  background-color: #6af;
+}
+
+.NO {
+  background-color: #aaa;
+}
+
+#xx {
+  color: #6af;
+}
