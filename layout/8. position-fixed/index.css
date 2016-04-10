@@ -1,0 +1,9 @@
+
+.ff {
+  position: fixed;
+  left: 0px;
+  top: 300px;
+  width: 100px;
+  height: 100px;
+  background-color: #aaa;
+}

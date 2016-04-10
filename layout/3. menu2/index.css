@@ -1,0 +1,28 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+  font-size: 100%;
+}
+
+ul {
+  /* 讓 li 之間的空白字元變為 0 */
+  font-size: 0px;
+  background-color: #aaf;
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+  font-size: 16px;
+}
+
+ul a {
+  display: block;
+  text-decoration: none;
+  padding: 6px 20px;
+}
+
+ul a:hover {
+  background-color: #88f;
+}

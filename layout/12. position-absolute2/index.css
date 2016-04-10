@@ -1,0 +1,16 @@
+
+div {
+  border: 1px solid #f00;
+  padding: 20px;
+}
+
+/*.aa {
+  position: relative;
+}*/
+
+.cc {
+  position: absolute;
+  border-color: #00f;
+  left: 0px;
+  bottom: 0px;
+}

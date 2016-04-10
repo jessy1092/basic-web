@@ -1,0 +1,11 @@
+
+p {
+  line-height: 1.5;
+  text-indent: 1em;
+  font-size: 16px;
+}
+
+.indent {
+  text-indent: -1em;
+  padding-left: 1em;
+}

@@ -1,0 +1,9 @@
+
+p {
+  font-size: 36px;
+  background-color: #aaa;
+  background-image: url('product.jpg');
+  background-repeat: no-repeat;
+  /*background-position: 100px 50px;*/
+  background-position: 25% 75%;
+}
