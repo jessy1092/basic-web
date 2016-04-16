@@ -1,0 +1,202 @@
+
+* {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+  font-size: 100%;
+}
+
+.wrap {
+  max-width: 1220px;
+  margin: auto;
+}
+
+.head {
+  padding: 29px 25px;
+  margin-bottom: 5px;
+  box-shadow: 0px 8px 4px -4px rgba(0, 0, 0, .1);
+}
+
+.logo {
+  display: block;
+  float: left;
+  padding: 15px;
+}
+
+.head-method {
+  width: 253px;
+  float: right;
+  padding: 15px 0px;
+}
+
+.head-method i {
+  color: #333;
+  margin: 0px 5px;
+}
+
+.head ul {
+  font-size: 0px;
+  text-align: center;
+}
+
+.head li {
+  display: inline-block;
+  font-size: 16px;
+}
+
+.head li a {
+  display: block;
+  text-decoration: none;
+  padding: 25px 20px 23px;
+  border-bottom: 2px solid #fff;
+  color: #888;
+}
+
+.head li a:hover {
+  color: #333;
+  border-bottom-color: #0ab3a3;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.content {
+  padding: 5px;
+}
+
+.banner {
+  margin: 5px 5px;
+}
+
+.banner img {
+  width: 100%;
+}
+
+.banner-list {
+  margin: 0px -5px;
+  box-sizing: border-box;
+}
+
+.banner-list .list-2 {
+  float: left;
+  width: 50%;
+  box-sizing: border-box;
+  padding: 0 5px;
+}
+
+.banner-list .list-2.has-list {
+  float: left;
+  width: 50%;
+  box-sizing: border-box;
+  padding: 0 5px;
+}
+
+.banner-list .list-2.has-list ul {
+  margin-left: -5px;
+  margin-right: -5px;
+}
+
+.banner-list .row-1 {
+  margin-bottom: 5px;
+}
+
+.banner-list .top {
+  margin-bottom: 10px;
+}
+
+.banner-list li a {
+  display: block;
+  background-color: #f3f3f3;
+}
+
+.banner-list li .discount {
+  background-color: #fd6b6b;
+}
+
+.banner-list li img {
+  max-width: 100%;
+}
+
+.pg-group-title {
+  margin: 40px 0;
+  font-size: 26px;
+  text-align: center;
+  font-weight: 300;
+  color: #333;
+}
+
+.pg-group {
+  padding: 0 5px;
+}
+
+.pg {
+  position: relative;
+  width: 300px;
+  float: left;
+  box-sizing: border-box;
+  padding: 10px;
+  border: 1px solid #fff;
+}
+
+.pg img {
+  width: 100%;
+}
+
+.pg-title {
+  text-align: center;
+  font-weight: 400;
+  color: #888;
+  padding: 10px 0;
+}
+
+.pg-price {
+  text-align: center;
+  color: #0ab3a3;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.pg:hover {
+  border-color: #888;
+}
+
+.pg-label {
+  position: absolute;
+  top: 20px;
+  left: 10px;
+  font-size: 12px;
+  background-color: #0ab3a3;
+  color: #fff;
+  padding: 2px 8px;
+  box-shadow: 0px 8px 4px -2px rgba(0, 0, 0, .1);
+}
+
+.pg-thumbs-group {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.pg-thumbs {
+  position: absolute;
+  top: 20px;
+  right: 10px;
+}
+
+.pg-thumb {
+  width: 50px;
+  font-size: 0px;
+  border: 1px solid rgba(0, 0, 0, 0);;
+  margin-bottom: 5px;
+}
+
+.pg-thumb:hover {
+  border-color: #888;
+}
+
+.pg-thumbs img {
+  width: 100%;
+}
